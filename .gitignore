@@ -25,3 +25,5 @@ dist-ssr
 
 old-index.html
 old-style.css
+deploy.sh
+CNAME
