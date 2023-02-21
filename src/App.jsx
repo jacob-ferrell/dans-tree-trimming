@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   const [showMobileHeader, setShowMobileHeader] = useState(isMobileScreen);
