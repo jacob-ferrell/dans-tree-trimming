@@ -1,0 +1,75 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+}
+.top-header {
+    background-color: green;
+    width: 100%;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.top-header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-header a:hover {
+    color: inherit;
+}
+
+#phone {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
+#tree {
+    height: 2rem;
+    
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+.logo div {
+    text-align: center;
+}
+
+#phone-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.top-header nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-header nav a:hover {
+    color: rgb(0, 119, 255);
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .top-header {
+        height: 40px;
+    }
+}

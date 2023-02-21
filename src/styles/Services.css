@@ -1,0 +1,51 @@
+.services .card {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 0px #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: 0 20px;
+  }
+
+  #services .btn-container button {
+    background-color: green;
+    width: 40vw;
+  }
+
+  #services .btn-container {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+  }
+
+  #services svg, #services img {
+    margin-right: .5rem;
+    height: 20px;
+    width: 20px;
+  }
+  
+
+
+  @media screen and (max-width: 768px)  {
+    .services .card {
+      height: 25vh;
+      width: 40vw;
+      margin: 0 5px;
+    }
+    .card h3 {
+      font-size: .8rem;
+      font-weight: bold;
+    }
+
+    .card p {
+      font-size: .6rem;
+    }
+  }
