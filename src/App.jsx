@@ -6,7 +6,6 @@ import MobileHeader from "./components/MobileHeader";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
-import Gallery from "./components/Gallery";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -35,7 +34,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </div>
     </Router>
