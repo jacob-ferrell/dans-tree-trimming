@@ -67,7 +67,7 @@ const Services = (props) => {
         </a>
         <Link to="/contact">
           <button className="btn text-white">
-            <img src={messageIcon} />
+            <img src={messageIcon} alt="Message"/>
             Message Us
           </button>
         </Link>

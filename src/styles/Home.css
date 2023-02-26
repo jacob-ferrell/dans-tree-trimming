@@ -59,8 +59,7 @@
 }
 
 #home .carousel-indicators {
-  margin-left: 1%;
-  margin-right: 1%;
+  display: none;
 }
 
 #home .carousel-indicators button {
