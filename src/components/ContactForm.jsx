@@ -6,24 +6,15 @@ const ContactForm = (props) => {
   async function handleFormSubmit(e) {
     e.preventDefault();
     const form = e.target;
-    const name = form.elements.name.value;
-    const message = form.elements.message.value;
-    const subject = form.elements.subject.value;
-    const email = form.elements.email.value;
     const res = await fetch(
-      "https://formsubmit.co/ajax/boomkablamo@gmail.com",
+      "https://formsubmit.co/ajax/a46892e5c8e5826148eac34ea69d79e6",
       {
         method: "POST",
-        header: {
+        headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify({
-          name,
-          message,
-          subject,
-          email,
-        }),
+        body: JSON.stringify(Object.fromEntries(new FormData(e.target))),
       }
     );
     const data = await res.json();
@@ -40,6 +31,12 @@ const ContactForm = (props) => {
   return (
     <>
       <form onSubmit={handleFormSubmit}>
+        {/* Honeypot */}
+        <input type="text" name="_honey" style={{ display: "none" }} />
+
+        {/* Disable Captcha */}
+        <input type="hidden" name="_captcha" value="false" />
+
         <div className="form-group">
           <input
             name="name"
