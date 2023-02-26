@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 const ContactForm = (props) => {
   const {setMessage, success, setSuccess} = props;

@@ -26,6 +26,10 @@
     gap: 10vw;
   }
 
+  #services .btn-container button {
+    width: 15vw;
+  }
+
   #services svg, #services img {
     margin-right: .5rem;
     height: 20px;
@@ -47,5 +51,13 @@
 
     .card p {
       font-size: .6rem;
+    }
+
+    #services .btn-container {
+      margin-top: 5px;
+    }
+
+    #services .btn-container button {
+      width: 9rem;
     }
   }

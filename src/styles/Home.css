@@ -23,32 +23,48 @@
     margin-right: .5rem;
 }
 
+#home .btn-container button {
+  width: 100%;
+  height: 3rem;
+}
+
 .home-top {
   text-align: center;
+  background-color: white;
 }
 
 #home .carousel {
   width: 40vw;
-
+  max-width: 833px;
 }
 
 #home .btn-container {
-  gap: 2rem;
+  margin-top: 3rem;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  background-color: white;
+  width: 40vw;
 }
 
 #home .text-white {
   background-color: green;
 }
 
+#home h2 {
+  font-size: 3rem;
+}
+
 
 
 @media screen and (max-width: 768px) {
+
   #home .text-white {
-    background-color: green;
     width: 90vw;
+  }
+  #home h2 {
+    font-size: 1.8rem;
   }
   #home .carousel {
     width: 90vw;
@@ -62,5 +78,7 @@
 
   #home .btn-container {
     gap: 2rem;
+    justify-content: center;
+    width: 90vw;
   }
 }
