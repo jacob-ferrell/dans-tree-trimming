@@ -8,7 +8,7 @@ const Home = (props) => {
     <div className="content" id="home">
       <div className="home-top">
         <h2>Dan's Tree Trimming</h2>
-        <div>Transform Your Landscape with Dan's Tree Trimming!</div>
+        <div>Transform Your Landscape With Dan's Tree Trimming!</div>
         <GalleryCarousel />
       </div>
       <div className="h-100 btn-container">

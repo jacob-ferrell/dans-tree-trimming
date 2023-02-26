@@ -23,6 +23,26 @@
     margin-right: .5rem;
 }
 
+.home-top {
+  text-align: center;
+}
+
+#home .carousel {
+  width: 40vw;
+
+}
+
+#home .btn-container {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home .text-white {
+  background-color: green;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -30,6 +50,10 @@
     background-color: green;
     width: 90vw;
   }
+  #home .carousel {
+    width: 90vw;
+    height: auto;
+}
 
   #home div {
     text-align: center;
@@ -38,8 +62,5 @@
 
   #home .btn-container {
     gap: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }
