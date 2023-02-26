@@ -46,6 +46,8 @@
   justify-content: start;
   background-color: white;
   width: 40vw;
+  max-width: 833px;
+
 }
 
 #home .text-white {
