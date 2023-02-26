@@ -58,6 +58,15 @@
   font-size: 3rem;
 }
 
+#home .carousel-indicators {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#home .carousel-indicators button {
+  width: 5rem;
+}
+
 
 
 @media screen and (max-width: 768px) {
