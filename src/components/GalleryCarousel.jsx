@@ -17,7 +17,7 @@ const GalleryCarousel = (props) => {
           <img
             className="d-block w-100"
             src={image}
-            
+            alt="gallery-img"
           />
         </Carousel.Item>
       ))}
